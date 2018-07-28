@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Torit:Electric Bill Calculator</string>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <string name="title_activity_profile_update">Sparen</string>
+    <string name="title_activity_input">Home</string>
+    <string name="title_activity_power_calculate">Power Calculate</string>
+    <string name="title_activity_show_graph">Show Graph</string>
+    <string name="title_activity_neighbour_graph">Neighbour Graph</string>
+    <string name="title_activity_proinfo_update">ProinfoUpdate</string>
+    <string name="title_activity_admin">Admin</string>
+</resources>

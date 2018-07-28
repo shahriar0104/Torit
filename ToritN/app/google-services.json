@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "545652912917",
+    "firebase_url": "https://sparen-95266.firebaseio.com",
+    "project_id": "sparen-95266",
+    "storage_bucket": "sparen-95266.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545652912917:android:c7a88818cf0567c4",
+        "android_client_info": {
+          "package_name": "com.example.anik.ssparen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545652912917-e431aejcdcllfguff6icovskn92fthsl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anik.ssparen",
+            "certificate_hash": "b607c2f432259d1efb6874b50532975009cc5f80"
+          }
+        },
+        {
+          "client_id": "545652912917-r47v9rn9hlj7mm9anqtiqu00uvuj3u0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anik.ssparen",
+            "certificate_hash": "d946d9b9d24df10c46613fd4f2a39aff334d9637"
+          }
+        },
+        {
+          "client_id": "545652912917-us5sse0flpgloh2336npnmfmfs0in5je.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFc8-JbsUbABTxfPVG-k3VUZRdhrTEecg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545652912917-us5sse0flpgloh2336npnmfmfs0in5je.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.anik.ssparen.ProfileUpdate"
+        tools:showIn="@layout/activity_profile_update">
+
+        <TextView
+            android:id="@+id/regText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="62dp"
+            android:text="User Profile"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/regText"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="36dp"
+            android:text="Name : "
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/nameEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=""
+            android:layout_alignBaseline="@+id/nameText"
+            android:layout_alignBottom="@+id/nameText"
+            android:layout_alignEnd="@+id/familyEdit" />
+
+        <TextView
+            android:id="@+id/ageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/regText"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="80dp"
+            android:text="Age : "
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/ageEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=""
+            android:layout_alignBaseline="@+id/ageText"
+            android:layout_alignBottom="@+id/ageText"
+            android:layout_alignStart="@+id/nameEdit" />
+
+        <TextView
+            android:id="@+id/flatText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/regText"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="124dp"
+            android:text="Flat No : "
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/flatEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=""
+            android:layout_alignBaseline="@+id/flatText"
+            android:layout_alignBottom="@+id/flatText"
+            android:layout_alignStart="@+id/ageEdit" />
+
+        <TextView
+            android:id="@+id/areaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/regText"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="168dp"
+            android:text="Area : "
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/areaEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="e.g. Uttara,Mirpur"
+            android:layout_below="@+id/flatEdit"
+            android:layout_alignStart="@+id/flatEdit" />
+
+        <TextView
+            android:id="@+id/roomText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/regText"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="212dp"
+            android:text="Flat Size : "
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/roomEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="(in ft²)"
+            android:layout_below="@+id/areaEdit"
+            android:layout_alignStart="@+id/areaEdit" />
+
+        <TextView
+            android:id="@+id/familyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/regText"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="256dp"
+            android:text="family Members : "
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/familyEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:hint="total family member"
+            android:layout_marginStart="25dp"
+            android:layout_alignBaseline="@+id/familyText"
+            android:layout_alignBottom="@+id/familyText"
+            android:layout_toEndOf="@+id/familyText" />
+
+        <TextView
+            android:id="@+id/houseText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/regText"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="300dp"
+            android:text="House No. : "
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/houseEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:hint="House No."
+            android:layout_marginStart="25dp"
+            android:layout_alignBaseline="@+id/houseText"
+            android:layout_alignBottom="@+id/houseText"
+            android:layout_toEndOf="@+id/houseText" />
+
+        <Button
+            android:layout_below="@id/houseText"
+            android:id="@+id/confirmButton"
+            android:layout_width="161dp"
+            android:layout_height="60dp"
+            android:text="Confirm"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@drawable/buttonshape2"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp" />
+
+
+
+    </RelativeLayout>
+</ScrollView>
